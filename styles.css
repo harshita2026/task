@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+/* Navigation Bar */
+header nav {
+    background-color:#322A28;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    gap: 80px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #00f;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: radial-gradient(circle, rgba(0,0,0,0.6), #111), url('maintheme.png') center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 530px;
+}
+#ntxt{
+    position: relative;
+    top: 120px;
+}
+
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #000;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(249,225,201,0.3);
+    color: #111;
+    height: 500px;
+    /*padding: 40px 20px;*/
+}
+
+.column {
+    flex: 1 1 300px;
+    margin: 10px;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.column h2 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.column p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: white;
+}
+.team {
+    height: 680px;
+    background: radial-gradient(circle, rgba(0,0,0,0.6), #111), url('ourteam.png') center no-repeat;   
+}
+.ourteam{
+    display: inline-block;
+    gap: 40px;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+#st1{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+
+#st2{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+
+#st3{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+#st4{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+#st5{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.ourteam1{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 290px;
+}
+.gallery{
+    background:rgba(254,226,213,0.5);
+    height: 630px;
+}
+.ourgallery{
+    display: inline-block;
+    margin-left: 220px;
+}
+.txt{
+    margin-left: 540px;
+    padding-top: 30px;
+}
+#gal1{
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+#gal2{
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.galline2{
+    display: inline-block;
+    margin-left: 220px;
+    padding-top: 30px;
+}
+#gal3{
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+#gal4{
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.google{
+    background-color: white;
+    color: #000;
+    height: 300px;
+    text-align: center;
+}
+.footer{
+    background-color: #111111;
+}
+.maintxt{
+    text-align: left;
+    padding-left: 40px;
+}
+.f1{
+    display: inline-block
+}
+.social{
+    text-align: end;
+    position: relative;
+    left: 530px;
+    line-height: 0.6;
+    cursor: pointer;
+}
+.email{
+    padding-left: 40px;
+    line-height: 3;
+    cursor: pointer;
+}
+#em1{
+    font-size: 10px;
+}
+.powered{
+    text-align: end;
+    position:relative;
+    bottom: 90px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}
